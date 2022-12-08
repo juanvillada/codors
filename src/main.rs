@@ -50,12 +50,3 @@ fn main() {
         println!("{}: {}", codon, frequency);
     }
 }
-
-
-// fn greetings(name: &str) {
-//     println!("Hello {}", name);
-// }
-//
-// fn main() {
-//     greetings("Juan");
-// }
