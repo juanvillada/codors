@@ -2,6 +2,7 @@ use std::collections::HashMap;
 use std::io;
 use std::io::BufRead;
 
+
 fn codon_usage_bias(fasta_str: &str) -> HashMap<String, f64> {
     let mut codon_counts = HashMap::new();
     let mut total_count = 0;
